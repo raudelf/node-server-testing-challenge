@@ -5,6 +5,6 @@ const AvatarRouter = require('./endpoints/avatar-router.js');
 const server = express();
 
 server.use(express.json());
-server.use('/api/avatar', AvatarRouter);
+server.use('/api/avatars', AvatarRouter);
 
 module.exports = server;
